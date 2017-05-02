@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="73fd3989d05f43ce8cbfc8c28efd09f6" Name="Diagram1">
+        <EntityTypeShape EntityType="LearningCenterDBModel.Category" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="LearningCenterDBModel.Order" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LearningCenterDBModel.OrderItem" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LearningCenterDBModel.Product" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LearningCenterDBModel.ShoppingCartItem" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LearningCenterDBModel.User" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <AssociationConnector Association="LearningCenterDBModel.FK_Order_User" ManuallyRouted="false" />
+        <AssociationConnector Association="LearningCenterDBModel.FK_OrderItem_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="LearningCenterDBModel.FK_OrderItem_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="LearningCenterDBModel.FK_ShoppingCartItem_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="LearningCenterDBModel.FK_ShoppingCartItem_User" ManuallyRouted="false" />
+        <AssociationConnector Association="LearningCenterDBModel.ProductCategory" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
