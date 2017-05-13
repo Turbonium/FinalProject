@@ -1,6 +1,6 @@
 ﻿namespace LearningCenter.WebSite.Models
 {
-    public class IndexModel
+    public class CategoryListModel
     {
         public CategoryModel[] Categories { get; set; }
     }
