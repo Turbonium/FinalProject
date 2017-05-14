@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LearningCenter.ProductDatabase
+namespace LearningCenter.ClassDatabase
 {
     using System;
     using System.Data.Entity;
@@ -25,11 +25,7 @@ namespace LearningCenter.ProductDatabase
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Category> Categories { get; set; }
-        public virtual DbSet<Order> Orders { get; set; }
-        public virtual DbSet<OrderItem> OrderItems { get; set; }
-        public virtual DbSet<Product> Products { get; set; }
-        public virtual DbSet<ShoppingCartItem> ShoppingCartItems { get; set; }
+        public virtual DbSet<Class> Classes { get; set; }
         public virtual DbSet<User> Users { get; set; }
     }
 }

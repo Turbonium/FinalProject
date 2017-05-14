@@ -22,7 +22,7 @@ C:\Source\Repos\FinalProject\LearningCenter.Business\bin\Debug\System.Web.Razor.
 C:\Source\Repos\FinalProject\LearningCenter.Business\bin\Debug\System.Web.WebPages.xml
 C:\Source\Repos\FinalProject\LearningCenter.Business\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Source\Repos\FinalProject\LearningCenter.Business\bin\Debug\System.Web.WebPages.Razor.xml
-C:\Source\Repos\FinalProject\LearningCenter.Business\bin\Debug\LearningCenter.ProductDatabase.dll
 C:\Source\Repos\FinalProject\LearningCenter.Business\bin\Debug\EntityFramework.dll
-C:\Source\Repos\FinalProject\LearningCenter.Business\bin\Debug\LearningCenter.ProductDatabase.pdb
 C:\Source\Repos\FinalProject\LearningCenter.Business\bin\Debug\EntityFramework.xml
+C:\Source\Repos\FinalProject\LearningCenter.Business\bin\Debug\LearningCenter.ClassDatabase.dll
+C:\Source\Repos\FinalProject\LearningCenter.Business\bin\Debug\LearningCenter.ClassDatabase.pdb

@@ -87,6 +87,6 @@ C:\Source\Repos\FinalProject\LearningCenter.WebSite\bin\Autofac.Integration.Mvc.
 C:\Source\Repos\FinalProject\LearningCenter.WebSite\bin\Autofac.xml
 C:\Source\Repos\FinalProject\LearningCenter.WebSite\bin\Autofac.Integration.Mvc.xml
 C:\Source\Repos\FinalProject\LearningCenter.WebSite\bin\LearningCenter.Repository.dll
-C:\Source\Repos\FinalProject\LearningCenter.WebSite\bin\LearningCenter.ProductDatabase.dll
 C:\Source\Repos\FinalProject\LearningCenter.WebSite\bin\LearningCenter.Repository.pdb
-C:\Source\Repos\FinalProject\LearningCenter.WebSite\bin\LearningCenter.ProductDatabase.pdb
+C:\Source\Repos\FinalProject\LearningCenter.WebSite\bin\LearningCenter.ClassDatabase.dll
+C:\Source\Repos\FinalProject\LearningCenter.WebSite\bin\LearningCenter.ClassDatabase.pdb

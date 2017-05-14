@@ -1,71 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="LearningCenterDBModelStoreContainer" CdmEntityContainer="LearningCenterDBEntities">
-    <EntitySetMapping Name="Categories">
-      <EntityTypeMapping TypeName="LearningCenterDBModel.Category">
-        <MappingFragment StoreEntitySet="Category">
-          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
-          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="Orders">
-      <EntityTypeMapping TypeName="LearningCenterDBModel.Order">
-        <MappingFragment StoreEntitySet="Order">
-          <ScalarProperty Name="OrderId" ColumnName="OrderId" />
-          <ScalarProperty Name="OrderDate" ColumnName="OrderDate" />
-          <ScalarProperty Name="UserId" ColumnName="UserId" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="OrderItems">
-      <EntityTypeMapping TypeName="LearningCenterDBModel.OrderItem">
-        <MappingFragment StoreEntitySet="OrderItem">
-          <ScalarProperty Name="OrderId" ColumnName="OrderId" />
-          <ScalarProperty Name="Sequence" ColumnName="Sequence" />
-          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
-          <ScalarProperty Name="ProductPrice" ColumnName="ProductPrice" />
-          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="Products">
-      <EntityTypeMapping TypeName="LearningCenterDBModel.Product">
-        <MappingFragment StoreEntitySet="Product">
-          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
-          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
-          <ScalarProperty Name="ProductPrice" ColumnName="ProductPrice" />
-          <ScalarProperty Name="ProductQuantity" ColumnName="ProductQuantity" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="ShoppingCartItems">
-      <EntityTypeMapping TypeName="LearningCenterDBModel.ShoppingCartItem">
-        <MappingFragment StoreEntitySet="ShoppingCartItem">
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="UserId" ColumnName="UserId" />
-          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
-          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+  <EntityContainerMapping StorageEntityContainer="LearningDBModelStoreContainer" CdmEntityContainer="LearningCenterDBEntities">
+    <EntitySetMapping Name="Classes">
+      <EntityTypeMapping TypeName="LearningDBModel.Class">
+        <MappingFragment StoreEntitySet="Class">
+          <ScalarProperty Name="ClassId" ColumnName="ClassId" />
+          <ScalarProperty Name="ClassName" ColumnName="ClassName" />
+          <ScalarProperty Name="ClassDescription" ColumnName="ClassDescription" />
+          <ScalarProperty Name="ClassPrice" ColumnName="ClassPrice" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Users">
-      <EntityTypeMapping TypeName="LearningCenterDBModel.User">
+      <EntityTypeMapping TypeName="LearningDBModel.User">
         <MappingFragment StoreEntitySet="User">
           <ScalarProperty Name="UserId" ColumnName="UserId" />
           <ScalarProperty Name="UserEmail" ColumnName="UserEmail" />
-          <ScalarProperty Name="UserHashedPassword" ColumnName="UserHashedPassword" />
-          <ScalarProperty Name="UserFailedPasswordAttempts" ColumnName="UserFailedPasswordAttempts" />
-          <ScalarProperty Name="UserLockedOut" ColumnName="UserLockedOut" />
+          <ScalarProperty Name="UserPassword" ColumnName="UserPassword" />
+          <ScalarProperty Name="UserIsAdmin" ColumnName="UserIsAdmin" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <AssociationSetMapping Name="ProductCategory" TypeName="LearningCenterDBModel.ProductCategory" StoreEntitySet="ProductCategory">
-      <EndProperty Name="Category">
-        <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+    <AssociationSetMapping Name="UserClass" TypeName="LearningDBModel.UserClass" StoreEntitySet="UserClass">
+      <EndProperty Name="Class">
+        <ScalarProperty Name="ClassId" ColumnName="ClassId" />
       </EndProperty>
-      <EndProperty Name="Product">
-        <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+      <EndProperty Name="User">
+        <ScalarProperty Name="UserId" ColumnName="UserId" />
       </EndProperty>
     </AssociationSetMapping>
   </EntityContainerMapping>

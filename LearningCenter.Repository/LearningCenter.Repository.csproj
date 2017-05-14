@@ -85,18 +85,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CategoryRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\LearningCenter.ProductDatabase\LearningCenter.ProductDatabase.csproj">
-      <Project>{9af941e0-45cd-4a71-b805-d9f59118a0b4}</Project>
-      <Name>LearningCenter.ProductDatabase</Name>
-    </ProjectReference>
+    <Compile Include="UserRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LearningCenter.ProductDatabase\LearningCenter.ClassDatabase.csproj">
+      <Project>{9af941e0-45cd-4a71-b805-d9f59118a0b4}</Project>
+      <Name>LearningCenter.ClassDatabase</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

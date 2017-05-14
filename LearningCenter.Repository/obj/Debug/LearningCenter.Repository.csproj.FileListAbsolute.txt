@@ -1,7 +1,5 @@
 C:\Source\Repos\FinalProject\LearningCenter.Repository\bin\Debug\LearningCenter.Repository.dll
 C:\Source\Repos\FinalProject\LearningCenter.Repository\bin\Debug\LearningCenter.Repository.pdb
-C:\Source\Repos\FinalProject\LearningCenter.Repository\bin\Debug\LearningCenter.ProductDatabase.dll
-C:\Source\Repos\FinalProject\LearningCenter.Repository\bin\Debug\LearningCenter.ProductDatabase.pdb
 C:\Source\Repos\FinalProject\LearningCenter.Repository\obj\Debug\LearningCenter.Repository.csprojResolveAssemblyReference.cache
 C:\Source\Repos\FinalProject\LearningCenter.Repository\obj\Debug\LearningCenter.Repository.dll
 C:\Source\Repos\FinalProject\LearningCenter.Repository\obj\Debug\LearningCenter.Repository.pdb
@@ -27,3 +25,5 @@ C:\Source\Repos\FinalProject\LearningCenter.Repository\bin\Debug\EntityFramework
 C:\Source\Repos\FinalProject\LearningCenter.Repository\bin\Debug\LearningCenter.Repository.dll.config
 C:\Source\Repos\FinalProject\LearningCenter.Repository\bin\Debug\EntityFramework.SqlServer.dll
 C:\Source\Repos\FinalProject\LearningCenter.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Source\Repos\FinalProject\LearningCenter.Repository\bin\Debug\LearningCenter.ClassDatabase.dll
+C:\Source\Repos\FinalProject\LearningCenter.Repository\bin\Debug\LearningCenter.ClassDatabase.pdb

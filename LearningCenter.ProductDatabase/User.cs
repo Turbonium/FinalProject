@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LearningCenter.ProductDatabase
+namespace LearningCenter.ClassDatabase
 {
     using System;
     using System.Collections.Generic;
@@ -17,19 +17,15 @@ namespace LearningCenter.ProductDatabase
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public User()
         {
-            this.Orders = new HashSet<Order>();
-            this.ShoppingCartItems = new HashSet<ShoppingCartItem>();
+            this.Classes = new HashSet<Class>();
         }
     
         public int UserId { get; set; }
         public string UserEmail { get; set; }
-        public string UserHashedPassword { get; set; }
-        public bool UserFailedPasswordAttempts { get; set; }
-        public bool UserLockedOut { get; set; }
+        public string UserPassword { get; set; }
+        public bool UserIsAdmin { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Order> Orders { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<ShoppingCartItem> ShoppingCartItems { get; set; }
+        public virtual ICollection<Class> Classes { get; set; }
     }
 }

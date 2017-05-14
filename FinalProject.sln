@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningCenter.ProductDatabase", "LearningCenter.ProductDatabase\LearningCenter.ProductDatabase.csproj", "{9AF941E0-45CD-4A71-B805-D9F59118A0B4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningCenter.ClassDatabase", "LearningCenter.ProductDatabase\LearningCenter.ClassDatabase.csproj", "{9AF941E0-45CD-4A71-B805-D9F59118A0B4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningCenter.WebSite", "LearningCenter.WebSite\LearningCenter.WebSite.csproj", "{BF81995E-32F0-4501-8279-5BA35364038E}"
 EndProject

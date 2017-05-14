@@ -1,4 +1,4 @@
-﻿using LearningCenter.ProductDatabase;
+﻿using LearningCenter.ClassDatabase;
 
 namespace LearningCenter.Repository
 {
